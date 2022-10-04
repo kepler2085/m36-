@@ -34,3 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+- name: Trigger Mobile Builds with Appflow
+  uses: ionic-team/appflow-build@v1.0.4
